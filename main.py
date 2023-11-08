@@ -79,7 +79,7 @@ def calculating_votes(sheet, cat):
         cat[0] += votes_com[0]
         cat[1] += votes_com[1]
         cat[2] += votes_com[2]
-        cat[3] += sum(votes_com[3:4])
+        cat[3] += sum(votes_com[3:5])
         cat[4] += sum(votes_com[5:len(votes_com)-2])
         cat[5] += votes_com[-2]
         cat[6] += votes_com[-1]
